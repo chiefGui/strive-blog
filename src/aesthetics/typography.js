@@ -1,11 +1,12 @@
 import wfl from 'webfontloader'
 import Typography from 'typography'
 
-wfl.load({
-  google: {
-    families: ['Space Mono:400,700', 'Quicksand:400,700']
-  }
-})
+typeof window !== 'undefined' &&
+  wfl.load({
+    google: {
+      families: ['Space Mono:400,700', 'Quicksand:400,700']
+    }
+  })
 
 export default new Typography({
   baseFontSize: '16px',
