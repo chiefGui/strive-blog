@@ -1,6 +1,6 @@
 import Typography from 'typography'
 
-window &&
+typeof window !== 'undefined' &&
   require('webfontloader').load({
     google: {
       families: ['Space Mono:400,700', 'Quicksand:400,700']
