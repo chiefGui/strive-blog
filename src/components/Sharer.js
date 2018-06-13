@@ -15,7 +15,6 @@ import Button from './Button'
 const Container = styled.ul`
   position: absolute;
   right: 0;
-  /* padding: 0 20px 20px; */
   padding: 20px;
   margin: 0;
   width: auto;

@@ -1,6 +1,6 @@
 const actualDocument = typeof document !== 'undefined' && document
 
-const getCanonicalURL = actualDocument
+const getCanonicalURL = !actualDocument
   ? () => {}
   : () =>
     (
