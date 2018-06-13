@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-blog-no-styles",
-  "description": "Starter Gatsby Blog No Styles",
+  "name": "strive-blog",
+  "description": "The code behind Strive's blog",
   "version": "1.0.0",
-  "author": "Noah Glusenkamp <noah.glusenkamp@gmail.com>",
+  "author": "Vincae Entertainment",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/chiefGui/strive-blog/issues"
   },
   "dependencies": {
     "gatsby": "^1.8.12",
