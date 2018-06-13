@@ -3,7 +3,6 @@ import 'normalize.css'
 
 import Header from '../components/layout/Header/index'
 import Footer from '../components/layout/Footer'
-import Container from '../components/layout/Container'
 
 import typography from '../aesthetics/typography'
 import './globals.css'
