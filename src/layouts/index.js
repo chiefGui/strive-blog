@@ -1,13 +1,16 @@
 import React from 'react'
+import 'normalize.css'
+import typography from './utils/typography'
+import './globals.css'
 
-const Template = ({ location, children }) => {
+typography.injectStyles()
+
+const Template = ({ children }) => {
   return children()
 }
 
 Template.propTypes = {
-  children: React.PropTypes.func,
-  location: React.PropTypes.object,
-  route: React.PropTypes.object
+  children: React.PropTypes.func
 }
 
 export default Template
