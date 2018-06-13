@@ -1,8 +1,7 @@
-import wfl from 'webfontloader'
 import Typography from 'typography'
 
-typeof window !== 'undefined' &&
-  wfl.load({
+window &&
+  require('webfontloader').load({
     google: {
       families: ['Space Mono:400,700', 'Quicksand:400,700']
     }
