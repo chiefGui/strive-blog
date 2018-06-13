@@ -7,6 +7,7 @@
     "url": "https://github.com/chiefGui/strive-blog/issues"
   },
   "dependencies": {
+    "disqus-react": "^1.0.5",
     "gatsby": "^1.8.12",
     "gatsby-link": "^1.6.8",
     "gatsby-plugin-google-analytics": "^1.0.4",
@@ -25,6 +26,10 @@
     "gatsby-transformer-sharp": "^1.6.1",
     "lodash": "^4.15.0",
     "normalize.css": "^8.0.0",
+    "react-share": "^2.2.0",
+    "react-sticky": "^6.0.2",
+    "rehype-react": "^3.0.2",
+    "reshader": "^1.0.0",
     "styled-components": "^3.3.2",
     "typography": "^0.16.17",
     "webfontloader": "^1.6.28"

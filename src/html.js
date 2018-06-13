@@ -40,6 +40,13 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+
+          <script
+            defer
+            src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'
+            integrity='sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe'
+            crossOrigin='anonymous'
+          />
         </body>
       </html>
     )

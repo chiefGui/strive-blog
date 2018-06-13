@@ -1,12 +1,23 @@
 import React from 'react'
 import 'normalize.css'
-import typography from './utils/typography'
+
+import Header from '../components/layout/Header/index'
+import Footer from '../components/layout/Footer'
+import Container from '../components/layout/Container'
+
+import typography from '../aesthetics/typography'
 import './globals.css'
 
 typography.injectStyles()
 
 const Template = ({ children }) => {
-  return children()
+  return (
+    <div>
+      <Header />
+      {children()}
+      <Footer />
+    </div>
+  )
 }
 
 Template.propTypes = {
