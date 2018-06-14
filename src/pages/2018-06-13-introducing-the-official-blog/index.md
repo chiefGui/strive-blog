@@ -1,6 +1,6 @@
 ---
 title: Introducing the official blog
-coverUrl: https://steamcdn-a.akamaihd.net/steam/apps/827930/ss_1e1bb08faeca8d47b52d00c8630b8bce9996c6f2.1920x1080.jpg?t=1528928964
+coverUrl: https://pbs.twimg.com/media/Ddf_8G4WkAYE749.jpg:large
 description: Because releasing a blog requires a proper presentation
 date: "2018-06-13T23:39:19.364Z"
 ---
