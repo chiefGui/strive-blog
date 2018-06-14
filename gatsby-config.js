@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Strive. The Official Blog.',
+    title: 'Strive Official Blog',
     author: 'Vincae Entertainment'
   },
   plugins: [
