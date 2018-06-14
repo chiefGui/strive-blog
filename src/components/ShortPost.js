@@ -28,16 +28,21 @@ const Right = styled.div``
 const Title = styled.h3`
   color: ${colors.orange[5]};
   margin-bottom: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 `
 
 const PostDate = styled.time`
-  color: ${colors.gray[1]};
-  font-size: 12px;
+  color: ${colors.gray[2]};
+  vertical-align: top;
 `
 
 const Description = styled.section`
   margin-top: 10px;
-  color: ${colors.gray[2]};
+  color: ${colors.gray[1]};
+  font-size: 16px;
+  letter-spacing: 1px;
 `
 
 const ShortPost = ({ url, title, description, createdAt }) => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
@@ -52,20 +51,6 @@ class BlogIndex extends React.Component {
 
 export default BlogIndex
 
-// return (
-//   <div key={node.fields.slug}>
-//     <Container>
-//       <h3>
-//         <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-//           {title}
-//         </Link>
-//       </h3>
-//       <small>{node.frontmatter.date}</small>
-//       <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-//     </Container>
-//   </div>
-// )
-
 export const pageQuery = graphql`
   query IndexQuery {
     site {
@@ -81,7 +66,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM DD, YYYY")
             title
             description
           }

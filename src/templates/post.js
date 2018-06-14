@@ -39,7 +39,7 @@ const Anchor = styled.a`
 `
 
 const PostDate = styled.time`
-  color: ${colors.orange[2]};
+  color: ${colors.gray[2]};
 `
 
 const ContainerText = styled(Container)``
@@ -59,6 +59,8 @@ const Ol = ContainerText.withComponent('ol').extend``
 const Ul = ContainerText.withComponent('ul').extend``
 
 const Paragraph = ContainerText.withComponent('p').extend`
+  font-size: 22px;
+  letter-spacing: 1px;
   margin-bottom: 40px;
 `
 
