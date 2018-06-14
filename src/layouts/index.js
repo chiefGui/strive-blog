@@ -4,7 +4,6 @@ import 'normalize.css'
 
 import Header from '../components/layout/Header/index'
 import Footer from '../components/layout/Footer'
-import isDefined from '../utils/isDefined'
 
 import typography from '../aesthetics/typography'
 import './globals.css'
