@@ -27,6 +27,7 @@
     "lodash": "^4.15.0",
     "normalize.css": "^8.0.0",
     "prop-types": "^15.6.1",
+    "react-ga": "^2.5.3",
     "react-share": "^2.2.0",
     "react-sticky": "^6.0.2",
     "rehype-react": "^3.0.2",
