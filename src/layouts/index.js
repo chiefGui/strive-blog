@@ -12,9 +12,10 @@ import './globals.css'
 typography.injectStyles()
 
 const GoogleAnalyticsPageviewParam =
-  isDefined(window) && window.location.pathname + window.location.search
+  typeof window !== 'undefined' &&
+  window.location.pathname + window.location.search
 
-GoogleAnalytics.initialize('UA-120846585-1')
+GoogleAnalytics.initialize('UA-119326806-2')
 GoogleAnalytics.pageview(GoogleAnalyticsPageviewParam)
 
 const Template = ({ children }) => {
