@@ -56,19 +56,53 @@ const H5 = Heading.withComponent('h5').extend``
 const H6 = Heading.withComponent('h6').extend``
 
 const Ol = ContainerText.withComponent('ol').extend``
-const Ul = ContainerText.withComponent('ul').extend``
-
-const Paragraph = ContainerText.withComponent('p').extend`
+const Ul = ContainerText.withComponent('ul').extend`
   font-size: 22px;
   letter-spacing: 1px;
   margin-bottom: 40px;
 `
 
+const Li = styled.li`
+  margin-bottom: 20px;
+  margin-left: 40px;
+`
+
+const SmartParagraph = ({ children }) => {
+  if (children[0].type === 'extended-img') {
+    return <ExtendedParagraph>
+      <ExpandedImg src={children[0].props.src} alt={children[0].props.children} />
+    </ExtendedParagraph>
+  }
+
+  return <Paragraph>{children}</Paragraph>
+}
+
+const Paragraph = ContainerText.withComponent('p').extend`
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+      `
+
+const ExtendedParagraph = styled(Paragraph)`
+  @media only screen and (min-width: 768px) {
+        max-width: 1600px;
+      padding: 20px;
+    }
+  
+    padding: 0;
+  `
+
+const ExpandedImg = styled.img`
+    position: relative;
+    display: block;
+    padding: 0;
+  `
+
 const renderAst = new Rehype({
   createElement: React.createElement,
   components: {
     a: Anchor,
-    p: Paragraph,
+    p: SmartParagraph,
     h1: H1,
     h2: H2,
     h3: H3,
@@ -76,7 +110,8 @@ const renderAst = new Rehype({
     h5: H5,
     h6: H6,
     ol: Ol,
-    ul: Ul
+    ul: Ul,
+    li: Li
   }
 }).Compiler
 
@@ -144,21 +179,21 @@ export default PostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    site {
+        site {
       siteMetadata {
         title
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
+    markdownRemark(fields: {slug: {eq: $slug } }) {
+        id
       htmlAst
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
-        coverUrl
-      }
+      description
+      coverUrl
     }
   }
+}
 `
