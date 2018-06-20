@@ -13,7 +13,7 @@ It's important to note that the main focus of this update is to bring some enhan
 
 Let's get started, shall we?
 
-<extended-img src=https://cdn.discordapp.com/attachments/413805764302340097/458741218839494665/unknown.png>Picture of Westgrim with the a big sun in the horizon, referring to the Aurora's update</extended-img>
+<extended-img src=https://media.discordapp.net/attachments/413805764302340097/459020680986624001/unknown.png>Picture of Westgrim with the a big sun in the horizon, referring to the Aurora's update</extended-img>
 
 ## Creatures are now displaying their level and loot
 
@@ -92,7 +92,7 @@ Yay!
 
 #### Bugfixes
 
-- Fixed a bug where Dorado Tooth wasn't able to be crafted in a amount > 1.
+- Fixed a bug where Dorado Tooth wasn't able to be crafted in an amount > 1.
 - Fixed some buttons with wrong colors.
 
 ## What are your thoughts?
