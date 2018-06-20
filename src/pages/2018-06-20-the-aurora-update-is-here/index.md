@@ -1,7 +1,7 @@
 ---
 title: The Aurora Update is here
 coverUrl: https://pbs.twimg.com/media/Ddf_8G4WkAYE749.jpg:large
-description: Because releasing a blog requires a proper presentation
+description: Getting started with Strive was never this easy
 date: "2018-06-20T15:00:00.384Z"
 ---
 
