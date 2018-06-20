@@ -67,7 +67,7 @@ To help one figure out how long they were waiting for the match to start, we int
 
 We've introduced a small but big (what?) change on your player controllers: moving and interacting in the very same button (yeah!).
 
-Observing some players, with our old controller key map where they interact with the left mouse button and walk with the right one, we noticed they were approaching creatures but not actually attacking them. It seem to us that they were trying to scream but had no mouth.
+Observing some players, with our old controller key map where they interact with the left mouse button and walk with the right one, we noticed they were approaching creatures but not actually attacking them. It seemed to us that they were trying to scream but had no mouth.
 
 This is not a headache anymore. We've introduced the same basic shape from other notable games that is interactions and movements are now a responsibility for the right button.
 
